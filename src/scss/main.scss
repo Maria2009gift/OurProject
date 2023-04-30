@@ -1,1 +1,6 @@
-@import "variables/reset"
+@import "utils/variables";
+@import "base/reset";
+
+@import "layout/header";
+@import "layout/hero";
+@import "layout/footer";
