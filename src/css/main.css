@@ -111,4 +111,26 @@ header {
 
 .info-header:first-of-type {
   margin-left: 43px;
+}
+
+.hero {
+  height: 321px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-h1 {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 43px;
+  text-align: center;
+  color: #004FFF;
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+
+.hero {
+  background-image: url(../img/Rectangle-58.jpg);
 }/*# sourceMappingURL=main.css.map */
