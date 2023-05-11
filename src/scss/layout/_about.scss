@@ -4,7 +4,8 @@
     background-color: black;
 }
 
-.h2-about, .h2-various {
+.h2-about,
+.h2-various {
     display: flex;
     font-family: 'Jost';
     font-style: normal;
@@ -21,7 +22,8 @@
 
 
 
-.p-about, .p-various {
+.p-about,
+.p-various {
     display: flex;
     font-family: 'Jost';
     font-style: normal;
@@ -31,4 +33,94 @@
     text-align: center;
 
     color: #0075FF;
+}
+
+@media screen and (min-width: 1500px) {
+    .h2-about {
+        align-items: flex-start;
+        padding-top: 144px;
+        margin-left: 141px;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 64px;
+    }
+
+    .p-about {
+        width: 349px;
+        height: 373px;
+        text-align: start;
+        margin-left: 141px;
+        font-size: 34px;
+    }
+
+    .about-box {
+        display: flex;
+
+    }
+
+    .about-img {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .img_44 {
+        padding-top: 150px;
+        padding-left: 160px;
+    }
+
+    .img_45 {
+        padding-top: 340px;
+        padding-left: 125px;
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h2-various {
+
+        padding-top: 58px;
+
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 64px;
+        align-items: flex-end;
+    }
+
+    .p-various {
+        width: 349px;
+        height: 373px;
+        text-align: end;
+        font-size: 34px;
+    }
+
+    .various-box {
+        display: flex;
+
+    }
+
+    .various-img {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .img_46 {
+        padding-left: 95px;
+        padding-bottom: 200px;
+    }
+
+    .img_47 {
+        padding-left: 100px ;
+        padding-bottom: 60px;
+    }
+
+    .various-text {
+        display: flex;
+        flex-direction: column;
+        padding-left: 750px;
+        padding-right: 120px;
+    }
 }
