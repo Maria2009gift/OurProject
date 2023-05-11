@@ -116,6 +116,10 @@ a {
   padding-left: 60px;
 }
 
+.info-header:nth-child(2) {
+  padding-left: 36px;
+}
+
 @media screen and (min-width: 640px) {
   nav {
     display: flex;
@@ -145,14 +149,31 @@ a {
   line-height: 43px;
   text-align: center;
   color: #004FFF;
-  padding-top: 82px;
+  padding-top: 100px;
   padding-bottom: 82px;
 }
 
+@media screen and (min-width: 640px) {
+  .hero-h1 {
+    font-size: 80px;
+    line-height: 151px;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 884px) {
+  .hero-h1 {
+    padding-top: 75px;
+  }
+}
 .hero {
   background-image: url(../img/Rectangle-58.jpg);
 }
 
+@media screen and (min-width: 640px) {
+  .hero {
+    background-image: url(../img/Rectangle-98.jpg);
+  }
+}
 .about {
   height: 100%;
   background-color: black;
@@ -171,6 +192,10 @@ a {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 12px;
+}
+
+.p-about {
+  margin-bottom: 20px;
 }
 
 .p-about,
@@ -210,11 +235,11 @@ a {
     align-items: flex-start;
   }
   .img_44 {
-    padding-top: 150px;
+    padding-top: 145px;
     padding-left: 160px;
   }
   .img_45 {
-    padding-top: 340px;
+    padding-top: 320px;
     padding-left: 125px;
   }
   .about-text {
@@ -243,17 +268,19 @@ a {
     align-items: flex-end;
   }
   .img_46 {
+    width: 460px;
     padding-left: 95px;
-    padding-bottom: 200px;
+    padding-bottom: 350px;
   }
   .img_47 {
+    width: 435px;
     padding-left: 100px;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
   }
   .various-text {
     display: flex;
     flex-direction: column;
-    padding-left: 750px;
+    padding-left: 500px;
     padding-right: 120px;
   }
 }
@@ -286,6 +313,22 @@ a {
   color: #004FFF;
 }
 
+@media screen and (min-width: 640px) {
+  .oneplusone {
+    display: block;
+  }
+  .img-div-trand {
+    justify-content: center;
+  }
+  .trand-img {
+    height: 550px;
+    width: 350px;
+    margin-right: 42px;
+  }
+  .titanic {
+    margin-right: 0;
+  }
+}
 header {
   width: 100%;
   height: 124px;

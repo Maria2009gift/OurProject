@@ -15,11 +15,13 @@
     flex-direction: column;
     color: #004FFF;
     text-align: center;
-
     padding-top: 20px;
     padding-bottom: 12px;
 }
 
+.p-about {
+    margin-bottom: 20px;
+}
 
 
 .p-about,
@@ -65,12 +67,12 @@
     }
 
     .img_44 {
-        padding-top: 150px;
+        padding-top: 145px;
         padding-left: 160px;
     }
 
     .img_45 {
-        padding-top: 340px;
+        padding-top: 320px;
         padding-left: 125px;
     }
 
@@ -98,7 +100,6 @@
 
     .various-box {
         display: flex;
-
     }
 
     .various-img {
@@ -108,19 +109,21 @@
     }
 
     .img_46 {
+        width: 460px;
         padding-left: 95px;
-        padding-bottom: 200px;
+        padding-bottom: 350px;
     }
 
     .img_47 {
+         width: 435px;
         padding-left: 100px ;
-        padding-bottom: 60px;
+        padding-bottom: 160px;
     }
 
     .various-text {
         display: flex;
         flex-direction: column;
-        padding-left: 750px;
+        padding-left: 500px;
         padding-right: 120px;
     }
 }
