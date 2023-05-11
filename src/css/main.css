@@ -91,7 +91,6 @@ header {
 }
 
 .info-header {
-  color: #417CFF;
   font-family: "Jura";
   font-style: normal;
   font-weight: 400;
@@ -100,8 +99,13 @@ header {
   text-align: center;
 }
 
+a {
+  color: #417CFF;
+}
+
 .info-header-list {
   display: flex;
+  color: #417CFF;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -112,6 +116,21 @@ header {
   padding-left: 60px;
 }
 
+@media screen and (min-width: 640px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 38px;
+    justify-content: space-around;
+  }
+  .logo-header {
+    justify-content: start;
+  }
+  .info-header-list {
+    margin-top: 0;
+    justify-content: end;
+  }
+}
 .hero {
   height: 321px;
   background-repeat: no-repeat;
@@ -139,7 +158,8 @@ header {
   background-color: black;
 }
 
-.h2-about, .h2-various {
+.h2-about,
+.h2-various {
   display: flex;
   font-family: "Jost";
   font-style: normal;
@@ -153,7 +173,12 @@ header {
   padding-bottom: 12px;
 }
 
-.p-about, .p-various {
+.p-about {
+  margin-bottom: 20px;
+}
+
+.p-about,
+.p-various {
   display: flex;
   font-family: "Jost";
   font-style: normal;

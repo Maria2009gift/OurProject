@@ -4,7 +4,8 @@
     background-color: black;
 }
 
-.h2-about, .h2-various {
+.h2-about,
+.h2-various {
     display: flex;
     font-family: 'Jost';
     font-style: normal;
@@ -14,14 +15,16 @@
     flex-direction: column;
     color: #004FFF;
     text-align: center;
-
     padding-top: 20px;
     padding-bottom: 12px;
 }
 
+.p-about {
+    margin-bottom: 20px;
+}
 
-
-.p-about, .p-various {
+.p-about,
+.p-various {
     display: flex;
     font-family: 'Jost';
     font-style: normal;
