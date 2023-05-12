@@ -1,3 +1,7 @@
+.footer {
+    background-color: #000000;
+}
+
 .logo-footer {
     font-family: 'Righteous';
     font-style: normal;
@@ -11,41 +15,65 @@
     padding-bottom: 10px;
 
     color: #004FFF;
+}
+
+.p-info-footer {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+        
+    color: #417CFF;
+}
+
+.p-info-footer{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #417CFF;
+}
+
+.social-media{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+                
+    color: #417CFF;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-footer {
+        font-weight: 400;
+        font-size: 77px;
+        line-height: 96px;
+        // text-align: center;
+    }
+
+    .div-info-footer {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .p-info-footer {
-        font-family: 'Jost';
-        font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 29px;
-        text-align: center;
-        
-        color: #417CFF;
-        }
+        font-size: 36px;
+        line-height: 52px;
+        text-align: start;
+    }
 
-        .p-info-footer{
-            font-family: 'Jost';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 29px;
-            text-align: center;
+    .social-media {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
 
-            color: #417CFF;
-            }
-
-            .social-media{
-                font-family: 'Jost';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 29px;
-                text-align: center;
-                
-                color: #417CFF;
-                }
-
-                    .footer {
-                        background-color: #000000;
-                    }
+    }
+}
