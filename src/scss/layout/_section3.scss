@@ -4,12 +4,47 @@
 
 .h3-novelty {
     font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 35.7033px;
-line-height: 52px;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.7033px;
+    line-height: 52px;
+    text-align: center;
 
-color: #004FFF;
+    color: #004FFF;
+}
 
+.img-popular {
+    height: 100%;
+    // width: 371px;
+    // margin-right: auto;
+    // margin-left: auto;
+}
+
+@media screen and (min-width: 550px) {
+    .img-popular {
+    height: 493px;
+    width: 371px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+}
+
+@media screen and (min-width: 900px) {
+    .div-novelty {
+        display: flex;
+        justify-content: center;
+
+        margin-right: 135px;
+        margin-left: 135px;
+    }
+
+    .img-popular {
+        background-size: cover;
+        margin-right: 39px;
+    }
+    
+    .cruise {
+        margin-right: 0;
+    }
 }

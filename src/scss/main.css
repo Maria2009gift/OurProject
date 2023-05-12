@@ -355,6 +355,37 @@ a {
   color: #004FFF;
 }
 
+.img-popular {
+  height: 100%;
+}
+
+@media screen and (min-width: 550px) {
+  .img-popular {
+    height: 493px;
+    width: 371px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  .div-novelty {
+    display: flex;
+    justify-content: center;
+    margin-right: 135px;
+    margin-left: 135px;
+  }
+  .img-popular {
+    background-size: cover;
+    margin-right: 39px;
+  }
+  .cruise {
+    margin-right: 0;
+  }
+}
+.footer {
+  background-color: #000000;
+}
+
 .logo-footer {
   font-family: "Righteous";
   font-style: normal;
@@ -398,6 +429,25 @@ a {
   color: #417CFF;
 }
 
-.footer {
-  background-color: #000000;
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 96px;
+  }
+  .div-info-footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .p-info-footer {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: start;
+  }
+  .social-media {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+  }
 }/*# sourceMappingURL=main.css.map */
