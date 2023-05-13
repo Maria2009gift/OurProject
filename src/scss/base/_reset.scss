@@ -79,4 +79,16 @@ body {
       padding-top: 94px;
       padding-bottom: 94px;
     }
+
+    p, h1, h2, h3 {
+      transition: 0.5;
+      
+      p, h1, h2, h3:hover {
+        font-size: 25px;
+        font-weight: 900;
+      }
+    }
+      
+    
+    
   }

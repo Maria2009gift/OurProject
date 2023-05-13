@@ -76,6 +76,13 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  p, h1, h2, h3 {
+    transition: 0.5;
+  }
+  p p, p h1, p h2, p h3:hover, h1 p, h1 h1, h1 h2, h1 h3:hover, h2 p, h2 h1, h2 h2, h2 h3:hover, h3 p, h3 h1, h3 h2, h3 h3:hover {
+    font-size: 25px;
+    font-weight: 900;
+  }
 }
 header {
   width: 100%;
