@@ -76,6 +76,13 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  p, h1, h2, h3 {
+    transition: 0.5;
+  }
+  p p, p h1, p h2, p h3:hover, h1 p, h1 h1, h1 h2, h1 h3:hover, h2 p, h2 h1, h2 h2, h2 h3:hover, h3 p, h3 h1, h3 h2, h3 h3:hover {
+    font-size: 25px;
+    font-weight: 900;
+  }
 }
 header {
   width: 100%;
@@ -489,4 +496,37 @@ body {
 .sec-header {
   background: linear-gradient(to bottom, #001648 0%, #000000 100%);
   display: flex;
+}
+
+.sec-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sec-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.con-h1 {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.sec-footer {
+  background: linear-gradient(to bottom, #000000 0%, #001648 100%);
+  height: 50px;
 }/*# sourceMappingURL=main.css.map */
