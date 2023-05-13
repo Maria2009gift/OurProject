@@ -505,6 +505,7 @@ body {
   justify-content: center;
   align-self: center;
   gap: 30px;
+  padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -512,6 +513,11 @@ body {
 .sec-container {
   display: flex;
   flex-direction: column;
+}
+
+.img-con {
+  width: 344px;
+  height: 486px;
 }
 
 .con-h1 {
@@ -523,7 +529,7 @@ body {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .sec-footer {
