@@ -16,11 +16,11 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 40px;
-    width: calc(50%);
-    padding-left: calc(50% - 19.49px);
 }
 
 .sec-header {
+    height: 40px;
     background: linear-gradient(to bottom, #001648  0%, #000000 100%);
     display: flex;
+    justify-content: center;
 }
