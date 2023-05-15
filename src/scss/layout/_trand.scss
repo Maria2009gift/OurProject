@@ -12,26 +12,38 @@
 
 .img-div-trand {
     display: flex;
+    justify-content: space-around;
 }
 
 .trand-img {
-    height: 270px;
+    width: 175px;
+    height: 277px;
 }
 
 .h3-trand {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 64px;
     line-height: 58px;
     text-align: center;
     color: #004FFF;
+}
+@media screen and (min-width: 550px) {
+    .trand-img {
+        height: 377px;
+    }
+
+    .h3-trand {
+        line-height: 92px;
+        font-size: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .img-div-trand {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .trand-img {
