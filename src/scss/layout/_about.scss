@@ -33,8 +33,15 @@
     font-size: 24px;
     line-height: 35px;
     text-align: center;
-
+    transition: 0.5s;
+    
     color: #0075FF;
+
+    &:hover {
+        font-weight: 500;
+        font-size: 36px;
+        color: #73b4ff;
+    }
 }
 
 @media screen and (min-width: 1200px) {

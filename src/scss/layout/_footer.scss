@@ -77,3 +77,41 @@
 
     }
 }
+
+.media {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.our-team-img-cntainer0-container1-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+button {
+    padding-top: 3px;
+    border-radius: 100%;
+    border: #417CFF 3px solid;
+    height: 44px;
+    width: 44px;
+    transition: 0.15s;
+    background: black;
+    margin-bottom: 5px;
+    
+    &:hover > svg > path {
+        fill: rgb(177, 202, 255);
+    }
+    &:hover {
+        border: rgb(177, 202, 255) 3px solid;
+    }
+}
+
+button > svg > path {
+    transition: 0.15s;
+    fill: #417CFF;
+}
