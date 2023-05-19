@@ -84,69 +84,6 @@ body {
     font-weight: 900;
   }
 }
-header {
-  width: 100%;
-  height: 124px;
-  background: linear-gradient(to bottom, #001648 0%, #000000 100%);
-}
-
-.logo-header {
-  color: #004FFF;
-  font-family: "Righteous";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.info-header {
-  font-family: "Jura";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-}
-
-a {
-  color: #417CFF;
-}
-
-.info-header-list {
-  display: flex;
-  color: #417CFF;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.info-header:last-child {
-  padding-left: 27px;
-}
-
-.info-header:nth-child(2) {
-  padding-left: 36px;
-}
-
-@media screen and (min-width: 640px) {
-  nav {
-    display: flex;
-    flex-direction: row;
-    padding-top: 38px;
-    justify-content: space-around;
-  }
-  .logo-header {
-    justify-content: start;
-  }
-  .info-header-list {
-    margin-top: 0;
-    justify-content: end;
-  }
-}
 .hero {
   height: 321px;
   background-repeat: no-repeat;
@@ -220,7 +157,14 @@ a {
   font-size: 24px;
   line-height: 35px;
   text-align: center;
+  transition: 0.5s;
   color: #0075FF;
+}
+.p-about:hover,
+.p-various:hover {
+  font-weight: 500;
+  font-size: 36px;
+  color: #73b4ff;
 }
 
 @media screen and (min-width: 1200px) {
@@ -508,6 +452,113 @@ a {
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
+  }
+}
+.media {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
+
+.our-team-img-cntainer0-container1-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+button {
+  padding-top: 3px;
+  border-radius: 100%;
+  border: #417CFF 3px solid;
+  height: 44px;
+  width: 44px;
+  transition: 0.15s;
+  background: black;
+  margin-bottom: 5px;
+}
+button:hover > svg > path {
+  fill: rgb(177, 202, 255);
+}
+button:hover {
+  border: rgb(177, 202, 255) 3px solid;
+}
+
+button > svg > path {
+  transition: 0.15s;
+  fill: #417CFF;
+}
+
+header {
+  width: 100%;
+  height: 124px;
+  background: linear-gradient(to bottom, #001648 0%, #000000 100%);
+}
+
+.logo-header {
+  color: #004FFF;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-header {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  transition: 0.4s;
+}
+.info-header:hover {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43.75px;
+  color: white;
+}
+
+a {
+  color: #417CFF;
+}
+
+.info-header-list {
+  display: flex;
+  color: #417CFF;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.info-header:last-child {
+  padding-left: 27px;
+}
+
+.info-header:nth-child(2) {
+  padding-left: 36px;
+}
+
+@media screen and (min-width: 640px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 38px;
+    justify-content: space-around;
+  }
+  .logo-header {
+    justify-content: start;
+  }
+  .info-header-list {
+    margin-top: 0;
+    justify-content: end;
   }
 }
 body {
