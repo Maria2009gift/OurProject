@@ -2,6 +2,10 @@
     height: 321px;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-h1 {
@@ -13,8 +17,6 @@
     text-align: center;
     color: #004FFF;
 
-    padding-top: 100px;
-    padding-bottom: 82px;
 }
 
 @media screen and (min-width: 640px) {
@@ -27,7 +29,8 @@
 }
 
 @media screen and (min-width: 884px) {
-    .hero-h1 {
-        padding-top: 75px;
+    .hero {
+        height: 637px;
     }
+
 }
