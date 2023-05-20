@@ -17,10 +17,12 @@
 }
 
 .img-con {
-    height: 486px;
+    height: 550px;
+    width: 320px;
 }
 
 .cat {
+    height: 550px;
     margin: 0 auto;
 }
 
@@ -41,13 +43,10 @@
     height: 50px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
     .img-con {
-        // padding: 0 auto;
         height: 770px;
         width: 100%;
-        // padding: 0 70px;
-
     }
 
     .sec-main {
@@ -63,13 +62,12 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .sec-container {
         width: calc((100% - 6 * 15px) / 3);
     }
 
     .img-con {
         height: 770px;
-        // padding: 0 30px;
     }
 }

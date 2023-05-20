@@ -23,27 +23,25 @@
 .h3-trand {
     font-family: 'Jost';
     font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 58px;
+    line-height: 80px;
+    font-size: 40px;
     text-align: center;
     color: #004FFF;
-}
-@media screen and (min-width: 550px) {
-    .trand-img {
-        height: 377px;
-    }
 
-    .h3-trand {
-        line-height: 92px;
-        font-size: 40px;
-    }
+    padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
     .img-div-trand {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .h3-trand {
+        line-height: 92px;
+        font-size: 40px;
+
+        padding-bottom: 20px;
     }
 
     .trand-img {
