@@ -10,30 +10,35 @@
     font-style: normal;
     text-align: center;
     color: #004FFF;
+    line-height: 92px;
+    font-size: 37px;
+
+
+    padding-bottom: 30px;
 }
 
 
 .div-novelty {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
 .img-popular {
     height: 277px;
-    width: 175px;
+    width: 160px;
 }
 
 .opus-novelty {
     display: none;
 }
 
-@media screen and (min-width: 550px) {
-    .popular-novelty {
-        line-height: 98px;
-        font-size: 64px;
-    }
-}
+// @media screen and (min-width: 550px) {
+//     .popular-novelty {
+//         line-height: 98px;
+//         font-size: 64px;
+//     }
+// }
 
 @media screen and (min-width:768px) {
     .img-popular {

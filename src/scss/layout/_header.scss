@@ -26,10 +26,8 @@ header {
     transition: 0.4s;
 
     &:hover {
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 43.75px;
-        color: white;
+        animation: pulse;
+        animation-duration: 0.5s;
     }
 }
 a{
