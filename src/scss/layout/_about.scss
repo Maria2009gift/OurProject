@@ -23,6 +23,10 @@
     margin-bottom: 20px;
 }
 
+.p-recomand {
+    display: none;
+
+}
 
 .p-about,
 .p-various {
@@ -38,9 +42,8 @@
     color: #0075FF;
 
     &:hover {
-        font-weight: 500;
+        font-weight: 440;
         font-size: 36px;
-        color: #73b4ff;
     }
 }
 
@@ -61,6 +64,23 @@
         font-size: 34px;
     }
 
+    .p-recomand {
+        display: flex;
+        font-family: 'Jost';
+        font-style: normal;
+        line-height: 35px;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #0075FF;
+        font-weight: 440;
+        font-size: 36px;
+
+        &:hover {
+            color: #73b4ff;
+        }
+    }
+
     .about-box {
         display: flex;
         justify-content: space-around;
@@ -68,6 +88,7 @@
 
     .about-img {
         display: flex;
+        align-items: center;
 
     }
 
@@ -110,6 +131,18 @@
         height: 261px;
         text-align: end;
         font-size: 34px;
+    }
+
+    .p-various:hover {
+        font-weight: 500;
+        font-size: 36px;
+        color: #73b4ff;
+    }
+
+    .p-about:hover {
+        font-weight: 500;
+        font-size: 36px;
+        color: #73b4ff;
     }
 
     .various-box {

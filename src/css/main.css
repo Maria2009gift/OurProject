@@ -86,9 +86,14 @@ body {
   background-image: url(../img/Rectangle-58.jpg);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../img/Rectangle-98.jpg);
+    background-image: url(../img/maurice.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url(../img/spiderman.jpg);
   }
 }
 .about {
@@ -116,6 +121,10 @@ body {
   margin-bottom: 20px;
 }
 
+.p-recomand {
+  display: none;
+}
+
 .p-about,
 .p-various {
   display: flex;
@@ -130,9 +139,8 @@ body {
 }
 .p-about:hover,
 .p-various:hover {
-  font-weight: 500;
+  font-weight: 440;
   font-size: 36px;
-  color: #73b4ff;
 }
 
 @media screen and (min-width: 1200px) {
@@ -149,12 +157,28 @@ body {
     text-align: start;
     font-size: 34px;
   }
+  .p-recomand {
+    display: flex;
+    font-family: "Jost";
+    font-style: normal;
+    line-height: 35px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #0075FF;
+    font-weight: 440;
+    font-size: 36px;
+  }
+  .p-recomand:hover {
+    color: #73b4ff;
+  }
   .about-box {
     display: flex;
     justify-content: space-around;
   }
   .about-img {
     display: flex;
+    align-items: center;
   }
   .img_44 {
     height: 197px;
@@ -183,6 +207,16 @@ body {
     height: 261px;
     text-align: end;
     font-size: 34px;
+  }
+  .p-various:hover {
+    font-weight: 500;
+    font-size: 36px;
+    color: #73b4ff;
+  }
+  .p-about:hover {
+    font-weight: 500;
+    font-size: 36px;
+    color: #73b4ff;
   }
   .various-box {
     display: flex;
@@ -367,7 +401,7 @@ a {
   padding-left: 36px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -401,14 +435,14 @@ a {
   color: #004FFF;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
   .hero-h1 {
     font-size: 80px;
     line-height: 151px;
     padding-top: 10px;
   }
 }
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1200px) {
   .hero {
     height: 637px;
   }
@@ -426,13 +460,13 @@ a {
   text-align: center;
   color: #004FFF;
   line-height: 92px;
-  font-size: 37px;
+  font-size: 35px;
   padding-bottom: 30px;
 }
 
 .div-novelty {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .img-popular {
@@ -450,7 +484,7 @@ a {
     width: 350px;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .div-novelty {
     display: flex;
     justify-content: space-evenly;
@@ -500,7 +534,7 @@ a {
 
 .img-div-trand {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .trand-img {
@@ -521,7 +555,7 @@ a {
 @media screen and (min-width: 768px) {
   .img-div-trand {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .h3-trand {
     line-height: 92px;
