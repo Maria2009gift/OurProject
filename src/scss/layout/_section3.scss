@@ -11,7 +11,7 @@
     text-align: center;
     color: #004FFF;
     line-height: 92px;
-    font-size: 37px;
+    font-size: 35px;
 
 
     padding-bottom: 30px;
@@ -20,7 +20,7 @@
 
 .div-novelty {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -33,13 +33,6 @@
     display: none;
 }
 
-// @media screen and (min-width: 550px) {
-//     .popular-novelty {
-//         line-height: 98px;
-//         font-size: 64px;
-//     }
-// }
-
 @media screen and (min-width:768px) {
     .img-popular {
         height: 550px;
@@ -47,7 +40,7 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
     .div-novelty {
         display: flex;
         justify-content: space-evenly;
