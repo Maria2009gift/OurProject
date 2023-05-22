@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 1.25;
     display: flex;
     justify-content: center;
     
@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 29px;
+    line-height: 1.45;
     text-align: center;
         
     color: #417CFF;
@@ -33,7 +33,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 29px;
+    line-height: 1.45;
     text-align: center;
 
     color: #417CFF;
@@ -54,8 +54,7 @@
     .logo-footer {
         font-weight: 400;
         font-size: 77px;
-        line-height: 96px;
-        // text-align: center;
+        line-height: 1.25;
     }
 
     .div-info-footer {
@@ -66,14 +65,14 @@
     .p-info-footer {
         font-weight: 400;
         font-size: 36px;
-        line-height: 52px;
+        line-height: 1.44;
         text-align: start;
     }
 
     .social-media {
         font-weight: 400;
         font-size: 30px;
-        line-height: 43px;
+        line-height: 1.43;
 
     }
 }
@@ -91,6 +90,7 @@
     align-items: center;
     text-align: center;
     gap: 5px;
+    margin-top: 7px;
 }
 
 button {
