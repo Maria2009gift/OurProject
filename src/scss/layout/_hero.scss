@@ -4,14 +4,14 @@
     background-size: cover;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .hero-h1 {
     font-family: 'Jura';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 48px;
     line-height: 43px;
     text-align: center;
@@ -33,4 +33,7 @@
         height: 637px;
     }
 
+    .hero-h1 {
+        line-height: 95px;
+    }
 }
