@@ -20,10 +20,15 @@
     height: 277px;
 }
 
+.trand-img:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+
 .h3-trand {
     font-family: 'Jost';
     font-style: normal;
-    line-height: 80px;
+    line-height: 2;
     font-size: 40px;
     text-align: center;
     color: #004FFF;
@@ -38,7 +43,7 @@
     }
 
     .h3-trand {
-        line-height: 92px;
+        line-height: 2.3;
         font-size: 40px;
 
         padding-bottom: 20px;
@@ -47,6 +52,10 @@
     .trand-img {
         height: 550px;
         width: 350px;
+    }
+
+    .wild {
+        margin-right: 15px;
     }
 }
 

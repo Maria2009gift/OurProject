@@ -12,11 +12,25 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     flex-direction: column;
     color: #004FFF;
     text-align: center;
     padding-bottom: 12px;
+
+}
+
+
+.h2-various:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+    color: #73b4ff
+}
+
+.h2-about:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+    color: #73b4ff
 }
 
 .p-about {
@@ -25,7 +39,6 @@
 
 .p-recomand {
     display: none;
-
 }
 
 .p-about,
@@ -35,26 +48,19 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 35px;
+    line-height: 1.15;
     text-align: center;
     transition: 0.5s;
-    
     color: #0075FF;
-
-    &:hover {
-        font-weight: 440;
-        font-size: 36px;
-    }
 }
 
 @media screen and (min-width: 1200px) {
     .h2-about {
         display: flex;
         align-items: flex-start;
-
         font-weight: 700;
         font-size: 44px;
-        line-height: 64px;
+        line-height: 1.46;
     }
 
     .p-about {
@@ -68,7 +74,7 @@
         display: flex;
         font-family: 'Jost';
         font-style: normal;
-        line-height: 35px;
+        line-height: 1.1;
         text-align: center;
         justify-content: center;
         flex-wrap: wrap;
@@ -76,9 +82,6 @@
         font-weight: 440;
         font-size: 36px;
 
-        &:hover {
-            color: #73b4ff;
-        }
     }
 
     .about-box {
@@ -94,20 +97,16 @@
 
     .img_44 {
         height: 197px;
-
         display: flex;
         align-self: flex-start;
-
         padding-top: 20px;
 
     }
 
     .img_45 {
         height: 140px;
-
         display: flex;
         align-self: flex-end;
-
         padding-left: 30px;
     }
 
@@ -117,12 +116,9 @@
     }
 
     .h2-various {
-
-        // padding-top: 58px;
-
         font-weight: 700;
         font-size: 44px;
-        line-height: 64px;
+        line-height: 1.46;
         align-items: flex-end;
     }
 
@@ -133,22 +129,9 @@
         font-size: 34px;
     }
 
-    .p-various:hover {
-        font-weight: 500;
-        font-size: 36px;
-        color: #73b4ff;
-    }
-
-    .p-about:hover {
-        font-weight: 500;
-        font-size: 36px;
-        color: #73b4ff;
-    }
-
     .various-box {
         display: flex;
         justify-content: space-around;
-
         margin-top: 40px;
     }
 
@@ -159,14 +142,12 @@
 
     .img_46 {
         height: 197px;
-
     }
 
     .img_47 {
         height: 186px;
         display: flex;
         align-self: flex-end;
-
         padding-left: 35px;
     }
 
@@ -174,6 +155,5 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 }

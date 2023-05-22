@@ -4,7 +4,7 @@
     background-size: cover;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
-    line-height: 43px;
+    line-height: 1.12px;
     text-align: center;
     color: #004FFF;
 
@@ -22,7 +22,7 @@
 @media screen and (min-width: 768px) {
     .hero-h1 {
         font-size: 80px;
-        line-height: 151px;
+        line-height: 1.89;
 
         padding-top: 10px;
     }
@@ -31,10 +31,9 @@
 @media screen and (min-width: 1200px) {
     .hero {
         height: 637px;
-        align-items: flex-start;
     }
 
     .hero-h1 {
-        line-height: 95px;
+        line-height: 1.30;
     }
 }

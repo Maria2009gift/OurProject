@@ -30,12 +30,22 @@
     display: flex;
     font-weight: 400;
     font-size: 40px;
-    line-height: 50px;
+    line-height: 1.25;
     text-align: center;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    border: solid #417CFF;
+    border-radius: 40px;
+    padding: 8px;
+    margin-top: 13px;
+}
+
+.con-p:hover {
+    border: solid #000000;
+    background: #417CFF;
+    color: #000000;
+    transition: 0.5s;
 }
 
 .sec-footer {
