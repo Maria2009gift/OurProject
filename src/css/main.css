@@ -93,7 +93,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../img/spiderman.jpg);
+    background-image: url(../img/scream-hero.jpg);
   }
 }
 .about {
@@ -421,14 +421,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .hero-h1 {
   font-family: "Jura";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 48px;
   line-height: 43px;
   text-align: center;
@@ -445,6 +445,9 @@ a {
 @media screen and (min-width: 1200px) {
   .hero {
     height: 637px;
+  }
+  .hero-h1 {
+    line-height: 95px;
   }
 }
 .popular-novelty {
