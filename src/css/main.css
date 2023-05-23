@@ -388,6 +388,18 @@ header {
   animation-duration: 0.5s;
 }
 
+.info-header-noanim {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  transition: 0.4s;
+  color: gray;
+  padding-left: 36px;
+}
+
 a {
   color: #417CFF;
 }
