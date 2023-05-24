@@ -483,8 +483,9 @@ a {
   font-style: normal;
   text-align: center;
   color: #004FFF;
-  line-height: 92px;
-  font-size: 2.63;
+  line-height: 1.2;
+  font-size: 40px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
