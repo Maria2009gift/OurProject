@@ -1,15 +1,19 @@
 body{
   margin: 0;
   padding: 0;
+  background: rgb(6, 6, 6);
 }
 
+img {
+  border-radius: 50px;
+}
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -36,7 +40,6 @@ p {
 
 img {
     display: block;
-    width: 100%;
     height: auto;
 }
 
@@ -75,7 +78,7 @@ body {
     main {
       // padding-left: 15px;
       // padding-right: 15px;
-      background-color: black;
+      background-color: rgb(6, 6, 6);
     }
   }
   

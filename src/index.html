@@ -1,83 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Jura&family=Righteous&display=swap" rel="stylesheet">
-    <title>Project</title>
+    <title>Дивитись</title>
 </head>
-
-<body>
+<body class="body">
+    <!----HEADER---->
     <header>
         <nav>
             <a href="" class="logo-header">FilmsLand</a>
             <ul class="info-header-list">
-                <li class="info-header"><a href="#about-id">Інфо</a></li>
-                <li class="info-header"><a href="second.html">Наші Роботи</a></li>
-                <li class="info-header"><a href="#trand-id">В тренді</a></li>
+                <li class="info-header-noanim"><p>Дивитись</p></li>
+                <li class="info-header-anim"><a href="info.html">Про нас</a></li>
+                <li class="info-header-anim"><a href="second.html">Найпопулярніші тврои</a></li>
             </ul>
         </nav>
     </header>
-    <main id="main-id">
-        <section class="hero">
-            <h1 class="hero-h1">Дивись фільми <br> зручно!</h1>
-        </section>
-
-        <section class="about" id="about-id">
-            <div class="about-box">
-                <div class="about-text">
-                    <h2 class="h2-about">Трохи про FilmsLand</h2>
-                    <p class="p-about">Наш сайт є одним з найкращим в Європі сайтів для перегляду фільмів.В нас ви
-                        можете подивитися новинки навіть до релізу</p>
+    <!----MAIN MOVIE---->
+    <div class="main-movie">
+        <div class="main-movie-box">
+            <p class="main-text">ДИВИТИСЬ</p>
+            <div class="flex-box">
+                <div class="arr2">
+                    <img src="./img/arr2Use.png" alt="<" class="arr-img2 js-arr1" onclick="goBack()">
                 </div>
-                <div class="about-img">
-                    <img class="img_44" src="img/Rectangle-44.jpg" alt="">
-                    <img class="img_45" src="img/Rectangle-45.jpg" alt="">
-                </div>
-            </div>
-            <div class="various-box">
-                <div class="various-img">
-                    <img class="img_46" src="img/Rectangle-46.jpg" alt="">
-                    <img class="img_47" src="img/Rectangle-47.jpg" alt="">
-                </div>
-                <div class="various-text">
-                    <h2 class="h2-various">Різноманітність</h2>
-                    <p class="p-various">На нашій платформи Ви з легкістю зможете подивитися як і голівудські
-                        новинки так і непопулярні серіали, фільми з ріхзних країн.</p>
+                <div class="main-film">
+                    <a href="https://sweet.tv/movie/21012-bezslavni-kripaki" class="js-link">
+                        <img src="./img/hq720.jpg" class="js-img">
+                    </a>
+                </div>  
+                <div class="arr2">
+                    <img src="./img/arrUse.png" alt=">" class="arr-img2 js-arr2" onclick="goForward()">
                 </div>
             </div>
-        </section>
-        <!-- --------------------------------- -->
-        <section class="trand" id="trand-id">
-            <div class="div-trand">
-                <h3 class="h3-trand">Фільми в тренді</h3>
-                <div class="img-div-trand">
-                    <a href="https://uakino.club/filmy/10742-poklik-praschurv.html" class="wild" target="_blank"><img class="trand-img" src="img/Rectangle-53.jpg" alt=""></a>
-                    <a href="https://kinoprofi.io/22518-odin-reyndzher-2023.html" target="_blank"><img class="oneplusone trand-img" src="img/Rectangle-63.jpg" alt=""></a>
-                    <a href="https://uakino.club/filmy/genre_drama/43-titank.html" target="_blank"><img class="titanic trand-img" src="img/Rectangle-52.jpg" alt=""></a>
-                </div>
+        </div>
+    </div>
+    <!----LINE TREND---->
+    <div class="line-trend">
+        <div class="line-txt center">
+            <h1>В тренді</h1>
+        </div>
+        <div class="line-container">
+            <a href="" class="line-link">
+                <img src="./img/image 2.png" alt="" class="line-img oneplusone">
+            </a>
+            <a href="" class="line-link">
+                <img src="./img/image6.png" alt="" class="line-img">
+            </a>
+            <a href="" class="line-link">
+                <img src="./img/image 4.png" alt="" class="line-img">
+            </a>
+            <a href="" class="line-link">
+                <img src="./img/image 5.png" class="line-img">
+            </a>
+            <a href="" class="line-link">
+                <img src="./img/image 7.png" alt="" class="line-img">
+            </a>
+            <a href="" class="line-link">
+                <img src="./img/image 8.png" alt="" class="line-img">
+            </a>
+        </div>
+    </div>
+    <!---BOX-->
+    <div class="line-box">
+        <!----POPULAR FILMS---->
+        <div class="pop-films">
+            <div class="line-txt center">
+                <h1>Популярні фільми</h1>
             </div>
-        </section>
-        <!-- -------------------------------- -->
-        <section class="popular-novelty">
-            <h3 class="h3-novelty">Популярні новинки</h3>
-            <div class="div-novelty">
-                <a href="https://uakino.club/seriesss/drama_series/16283-ostann-z-nas-1-sezon.html" target="_blank"><img class="img-popular last" src="img/Rectangle-57.jpg" alt=""></a>
-                <div class="opus-novelty">      
-                    <p class="p-opus-popular">Тут ви можете подивитись новинки, як подобаються багтьом людям, тобто мають найбільше переглядів.</p>
-                    <a href="https://planetakino.ua/movies/side-effects-and-risks/#today" target="_blank"><img class="img-popular ryziki" src="img/ryziki-kopy.jpeg" alt=""></a>
-                </div>
-                <a href="https://uaserials.pro/5100-kruyiz-u-dzhunglyah.html" target="_blank"><img class="img-popular cruise" src="img/Rectangle-30.jpg" alt=""></a>
+            <div class="line-container">
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 10.png" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 11 (1).png" alt="" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 12 (1).png" alt="" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 13 (1).png" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 14.png" alt="" class="line-img grey">
+                </a>
             </div>
-        </section>
-    </main>
-<!-- --------------------------------- -->
+        </div>
+        <!----POPULAR SERIES---->
+        <div class="pop-series">
+            <div class="line-txt center">
+                <h1>Популярні серіали</h1>
+            </div>
+            <div class="line-container">
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 10 (2).png" alt="" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 11 (2).png" alt="" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 12 (2).png" alt="" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 13 (2).png" class="line-img grey">
+                </a>
+                <a href="" class="line-link">
+                    <img src="./img/Rectangle 14 (1).png" alt="" class="line-img grey">
+                </a>
+            </div>
+        </div>
+    <!----UA-------->
+    <div class="line-txt center">
+        <h1>Українські твори</h1>
+    </div>
+    <div class="line-container">
+        <a href="https://sweet.tv/movie/4011-ukrajinski-sherifi" class="line-link">
+            <img src="./img/uaSheriffs.jpg" class="line-img grey">
+        </a>
+        <a href="https://sweet.tv/movie/21172-nerealniy-kopec" class="line-link">
+            <img src="./img/kopec.jpg" alt="" class="line-img grey">
+        </a>
+        <a href="https://sweet.tv/movie/174-taras-bulba" class="line-link">
+            <img src="./img/tarasBulba.jpg" alt="" class="line-img grey">
+        </a>
+        <a href="https://sweet.tv/movie/21137-anton-i-chervona-himera" class="line-link">
+            <img src="./img/anton.jpg" class="line-img grey">
+        </a>
+        <a href="https://sweet.tv/movie/20667-dodomu" class="line-link">
+            <img src="./img/toHome.jpg" alt="" class="line-img grey">
+        </a>
+    </div>
+    </div>
+    <!----FOOTER---->
     <footer>
         <div class="footer" id="footer-id">
             <a href="" class="logo-footer">FilmsLand</a>
@@ -140,6 +201,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
-
 </html>
